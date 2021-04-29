@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(191);
-        Blade::component('components.Alerts.alerta', 'alerta'); // Alias to component
-        Blade::component('components.Nav.nav-link', 'nav-link'); // Alias to component
+        Blade::component('components.Alerts.alert', 'alert');
+        Blade::component('components.Nav.nav-link', 'nav-link');
     }
 }

@@ -1,15 +1,6 @@
 @extends('templates/base-template')
 @section('current-page', 'Candidato')
 
-<!-- Remove conteúdo da section -->
-<!-- @ section('sidebar-itens', '') -->
-
-<!-- @section('sidebar-itens')
-   <li><a href="/">Home</a></li> -->
-   <!-- Herdando o conteúdo já existente -->
-   <!-- @parent -->
-<!-- @stop -->
-
 @section('breadcrumb')
    <li class="breadcrumb-item"><a href="/">Home</a></li>
    <li class="breadcrumb-item active" aria-current="page">Candidato</li>
